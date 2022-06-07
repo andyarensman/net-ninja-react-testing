@@ -11,6 +11,23 @@ const MockFollowersList = () => {
 }
 
 describe("FollowersList", () => {
+
+  // beforeEach(() => {
+  //
+  // })
+
+  // beforeAll(() => {
+  //
+  // })
+
+  // afterEach(() => {
+  // 
+  // })
+
+  // afterAll(() => {
+  //
+  // })
+
   it('should render follower items', async () => {
     render(<MockFollowersList />);
     const followerDivElement = await screen.findByTestId("follower-item-0");
